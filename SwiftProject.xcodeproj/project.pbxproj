@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0B46E3671F91339D00DF1E87 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E3661F91339D00DF1E87 /* main.swift */; };
+		0B46E36E1F9136A800DF1E87 /* BankDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E36D1F9136A800DF1E87 /* BankDetails.swift */; };
+		0B46E3701F913AA500DF1E87 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E36F1F913AA500DF1E87 /* Customer.swift */; };
+		0B46E3721F913B5B00DF1E87 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E3711F913B5B00DF1E87 /* Order.swift */; };
+		0B46E3741F913C9800DF1E87 /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E3731F913C9800DF1E87 /* OrderDetails.swift */; };
+		0B46E3761F913E5000DF1E87 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E3751F913E5000DF1E87 /* Product.swift */; };
+		0B46E3781F91421E00DF1E87 /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E3771F91421E00DF1E87 /* ProductCategory.swift */; };
+		0B46E37A1F91430700DF1E87 /* ProductReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E3791F91430700DF1E87 /* ProductReviews.swift */; };
+		0B46E37C1F91443F00DF1E87 /* SiteReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E37B1F91443F00DF1E87 /* SiteReview.swift */; };
+		0B46E37E1F91452200DF1E87 /* Suppliers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E37D1F91452200DF1E87 /* Suppliers.swift */; };
+		0B46E3801F92FDD400DF1E87 /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E37F1F92FDD400DF1E87 /* Admin.swift */; };
+		0B46E3821F936BE900DF1E87 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B46E3811F936BE900DF1E87 /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,17 @@
 /* Begin PBXFileReference section */
 		0B46E3631F91339D00DF1E87 /* SwiftProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B46E3661F91339D00DF1E87 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0B46E36D1F9136A800DF1E87 /* BankDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetails.swift; sourceTree = "<group>"; };
+		0B46E36F1F913AA500DF1E87 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		0B46E3711F913B5B00DF1E87 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		0B46E3731F913C9800DF1E87 /* OrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
+		0B46E3751F913E5000DF1E87 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0B46E3771F91421E00DF1E87 /* ProductCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategory.swift; sourceTree = "<group>"; };
+		0B46E3791F91430700DF1E87 /* ProductReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductReviews.swift; sourceTree = "<group>"; };
+		0B46E37B1F91443F00DF1E87 /* SiteReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteReview.swift; sourceTree = "<group>"; };
+		0B46E37D1F91452200DF1E87 /* Suppliers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suppliers.swift; sourceTree = "<group>"; };
+		0B46E37F1F92FDD400DF1E87 /* Admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		0B46E3811F936BE900DF1E87 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,17 @@
 			isa = PBXGroup;
 			children = (
 				0B46E3661F91339D00DF1E87 /* main.swift */,
+				0B46E36D1F9136A800DF1E87 /* BankDetails.swift */,
+				0B46E36F1F913AA500DF1E87 /* Customer.swift */,
+				0B46E3711F913B5B00DF1E87 /* Order.swift */,
+				0B46E3731F913C9800DF1E87 /* OrderDetails.swift */,
+				0B46E3751F913E5000DF1E87 /* Product.swift */,
+				0B46E3771F91421E00DF1E87 /* ProductCategory.swift */,
+				0B46E3791F91430700DF1E87 /* ProductReviews.swift */,
+				0B46E37B1F91443F00DF1E87 /* SiteReview.swift */,
+				0B46E37D1F91452200DF1E87 /* Suppliers.swift */,
+				0B46E37F1F92FDD400DF1E87 /* Admin.swift */,
+				0B46E3811F936BE900DF1E87 /* Report.swift */,
 			);
 			path = SwiftProject;
 			sourceTree = "<group>";
@@ -120,7 +153,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B46E3741F913C9800DF1E87 /* OrderDetails.swift in Sources */,
+				0B46E3701F913AA500DF1E87 /* Customer.swift in Sources */,
+				0B46E36E1F9136A800DF1E87 /* BankDetails.swift in Sources */,
+				0B46E3721F913B5B00DF1E87 /* Order.swift in Sources */,
+				0B46E3801F92FDD400DF1E87 /* Admin.swift in Sources */,
+				0B46E3781F91421E00DF1E87 /* ProductCategory.swift in Sources */,
+				0B46E37E1F91452200DF1E87 /* Suppliers.swift in Sources */,
+				0B46E37C1F91443F00DF1E87 /* SiteReview.swift in Sources */,
+				0B46E37A1F91430700DF1E87 /* ProductReviews.swift in Sources */,
 				0B46E3671F91339D00DF1E87 /* main.swift in Sources */,
+				0B46E3761F913E5000DF1E87 /* Product.swift in Sources */,
+				0B46E3821F936BE900DF1E87 /* Report.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +282,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -247,7 +291,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
