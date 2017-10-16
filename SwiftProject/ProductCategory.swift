@@ -10,9 +10,9 @@ import Foundation
 
 class ProductCategory {
     
-    public var categoryID: Int
-    public var categoryName: String
-    public var categoryDesc: String
+    public private (set) var categoryID: Int
+    public private (set) var categoryName: String
+    public private (set) var categoryDesc: String
    
     
     
@@ -22,5 +22,27 @@ class ProductCategory {
         self.categoryDesc = categoryDesc
     }
     
+    func getCategoryID () -> Int {
+        return categoryID
+    }
     
+    func getCategoryName () -> String {
+        return categoryName
+    }
+    
+    func getCategoryDesc () -> String {
+        return categoryDesc
+    }
+    
+    func setCategoryID (categoryID : Int) {
+        self.categoryID = categoryID
+    }
+    
+    func getCategoryName (categoryName : String) {
+        self.categoryName = categoryName
+    }
+    
+    func getCategoryDesc (categoryDesc : String){
+        self.categoryDesc = categoryDesc
+    }
 }

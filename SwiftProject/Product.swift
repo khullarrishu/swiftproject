@@ -10,13 +10,58 @@ import Foundation
 
 class Product : Equatable {
     // database properties
-    public var productID: String
-    public var productName: String
-    public var productCategory: ProductCategory
-    public var productSupplier: Supplier
-    public var productDescription: String
-    public var avaiable: Int
-    public var buyPrice: Double
+    public private (set) var productID: String
+    public private (set) var productName: String
+    public private (set) var productCategory: ProductCategory
+    public private (set) var productSupplier: Supplier
+    public private (set) var productDescription: String
+    public private (set) var avaiable: Int
+    public private (set) var buyPrice: Double
+    
+    func getProductID () -> String {
+        return productID
+    }
+    func getProductName () -> String {
+        return productName
+    }
+    func getProductCategory () -> ProductCategory {
+        return productCategory
+    }
+    func getProductSupplier () -> Supplier {
+        return productSupplier
+    }
+    func getProductDescription () -> String {
+        return productDescription
+    }
+    func getAvaiable () -> Int {
+        return avaiable
+    }
+    func getBuyPrice () -> Double {
+        return buyPrice
+    }
+    
+    func setProductID ( productID : String ) {
+        self.productID = productID
+    }
+    func setProductName (productName : String) {
+        self.productName = productName
+    }
+    func setProductCategory (productCategory : ProductCategory) {
+        self.productCategory = productCategory
+    }
+    func setProductSupplier (productSupplier : Supplier)  {
+        self.productSupplier = productSupplier
+    }
+    func setProductDescription (productDescription : String)
+    {
+        self.productDescription = productDescription
+    }
+    func setAvaiable (avaiable : Int){
+        self.avaiable = avaiable
+    }
+    func setBuyPrice (buyPrice : Double) {
+        self.buyPrice = buyPrice
+    }
     
     // extra properties
     public var totalQuantity : Int
@@ -44,5 +89,6 @@ class Product : Equatable {
         
     }
 
+    
     
 }

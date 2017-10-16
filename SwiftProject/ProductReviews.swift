@@ -9,18 +9,34 @@
 import Foundation
 class ProductReviews {
     
-    public var productReviewId: Int
-    public var customerId: Customer
-    public var product: Product
-    public var reviewDesc: String
+    public private (set) var productReviewId: Int
+    public private (set) var customer: Customer
+    public private (set) var product: Product
+    public private (set) var reviewDesc: String
     
     
     init (productReviewId: Int, customerId: Customer, product: Product, reviewDesc: String) {
         self.productReviewId = productReviewId
-        self.customerId = customerId
+        self.customer = customerId
         self.product = product
         self.reviewDesc = reviewDesc
     }
     
+    func getProductReviewID() -> Int {
+        return productReviewId
+    }
+    
+    func getCustomerID() -> Customer {
+        return customer
+    }
+    
+    func getProduct() -> Product {
+        return product
+    }
+    
+    func getReviewDesc () -> String {
+        return reviewDesc
+    }
+ 
     
 }

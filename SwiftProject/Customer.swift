@@ -9,12 +9,12 @@
 import Foundation
 
 class Customer : Equatable {
-    public var userID: Int
-    public var password: String
-    public var status: String
-    public var fullName: String
-    public var gender: String
-    public var bankDetails: BankDetails
+    public private (set) var userID: Int
+    public private (set) var password: String
+    public private (set) var status: String
+    public private (set) var fullName: String
+    public private (set) var gender: String
+    public private (set) var bankDetails: BankDetails
     
     public var totalAmountSpent : Double
     
@@ -27,6 +27,56 @@ class Customer : Equatable {
         self.gender = gender
         self.totalAmountSpent = 0.0
     }
+    
+    func getUserID() -> Int {
+        return userID
+    }
+    
+    func getPassword() -> String {
+        return password
+    }
+    
+    func getStatus () -> String {
+        return status
+    }
+    
+    func getFullName () -> String {
+        return fullName
+    }
+    
+    func getBankDetails () -> BankDetails {
+        return bankDetails
+    }
+    
+    func getGender () -> String {
+        return gender
+    }
+    
+    func setUserID(userID: Int) {
+        self.userID = userID
+    }
+    
+    func setPassword(password: String) {
+        self.password = password
+    }
+    
+    func setStatus (status : String) {
+        self.status = status
+    }
+    
+    func setFullName (fullName: String) {
+        self.fullName = fullName
+    }
+    
+    func setBankDetails (bankDetails: BankDetails) {
+        self.bankDetails = bankDetails
+    }
+    
+    func setGender (gender: String) {
+        self.gender = gender
+    }
+    
+    
     
     public static func ==(lhs: Customer, rhs: Customer) -> Bool{
         return

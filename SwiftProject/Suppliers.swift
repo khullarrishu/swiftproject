@@ -10,11 +10,27 @@ import Foundation
 
 class Supplier{
     
-    var supplierId:Int
-    var supplierName:String
+    public private (set) var supplierId:Int
+    public private (set) var supplierName:String
     
     init(supplierId: Int, supplierName: String ){
         self.supplierId = supplierId
+        self.supplierName = supplierName
+    }
+    
+    func getSupplierId () -> Int {
+        return supplierId
+    }
+    
+    func getSupplierName () -> String {
+        return supplierName
+    }
+ 
+    func setSupplierId (supplierId : Int) {
+        self.supplierId = supplierId
+    }
+    
+    func setSupplierName (supplierName : String) {
         self.supplierName = supplierName
     }
 

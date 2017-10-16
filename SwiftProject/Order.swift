@@ -9,10 +9,10 @@
 import Foundation
 
 class Order {
-    public var orderID:Int
-    public var customer: Customer
-    public var orderDate:String
-    public var status:String
+    public private (set) var orderID:Int
+    public private (set) var customer: Customer
+    public private (set) var orderDate:String
+    public private (set) var status:String
     
     
     init (orderID:Int, customer:Customer, orderDate:String, status:String){
@@ -22,4 +22,35 @@ class Order {
         self.status = status
     }
     
+    func getOrderID () -> Int {
+        return orderID
+    }
+    
+    func getCustomer () -> Customer {
+        return customer
+    }
+    
+    func getOrderDate () -> String {
+        return orderDate
+    }
+    
+    func getStatus () -> String {
+        return status
+    }
+    
+    func setOrderID (orderID : Int) {
+        self.orderID = orderID
+    }
+    
+    func setCustomer (customer : Customer) {
+        self.customer = customer
+    }
+    
+    func setOrderDate (orderDate: String) {
+        self.orderDate = orderDate
+    }
+    
+    func setStatus (status: String) {
+        self.status = status
+    }
 }
